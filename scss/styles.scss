@@ -57,3 +57,77 @@ body {
         min-height: 500px;
     }
 }
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    // max-width: 100px;
+}
+
+.formbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing:content-box;
+    height:100px;
+    width: 300px;
+    margin: 300px 500px;
+    border: 1px solid black;
+}
+.site-title {
+    display: none;
+}
+label {
+    display: none;
+}
+input {
+    width: 255px;
+    margin: auto;
+    height: 30px;
+}
+button {
+    width: 260px;
+    margin:  5px auto;
+    height: 30px;
+}
+
+.pageBox {
+    display: grid;
+    grid-template-rows: 1fr 0.85fr;
+    max-width: 95vw;
+    max-height: 95vh;
+}
+.mainPic {
+    display: block;
+    box-sizing: border-box;
+    align-self: auto;
+    margin: auto;
+    min-width: 800px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+.profilePic{
+    // object-fit: cover;
+    margin-left: 150px;
+    border: 8px solid green;
+    border-radius: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.friendDiv {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: green;
+    margin-left: 25px;
+    width: 100%;
+}
+.friendPic {
+    box-sizing: content-box;
+    border: 8px solid white;
+    border-radius: 50%;
+    max-width: 200px;
+}
